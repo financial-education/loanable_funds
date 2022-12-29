@@ -1,0 +1,16 @@
+#+title: An Analysis of Loanable Funds
+#+author: Matt Brigida, Ph.D.
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+HTML_HEAD: <style>pre.src{background:#343131;color:white;} </style>
+#+PROPERTY: header-args
+#+bibliography: references.bib
+
+In these notes we'll discuss the factors affecting the supply and demand for loanable funds.
+
+
+
+[cite:@estrella2006yield;] estimated...
+
+* References
+
+#+print_bibliography:
