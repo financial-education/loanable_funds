@@ -8,6 +8,23 @@
 In these notes we'll discuss the factors affecting the supply and demand for loanable funds.
 
 
+* Supply of Loanable Funds
+
+Loanable funds are supplied primarily by (1) households, and also by (2) government and (3) businesses.  Note, funds are not supplied by banks---banks are merely the /intermediaries/.
+
+** Households
+
+
+** Governments
+
+** Businesses
+
+
+
+
+* Demand of Loanable Funds
+
+
 
 [cite:@estrella2006yield;] estimated...
 
