@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-12-19 Tue 20:47 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>An Analysis of Loanable Funds</title>
+<meta name="author" content="Matt Brigida, Ph.D." />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<style>pre.src{background:#343131;color:white;} </style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">An Analysis of Loanable Funds</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgc645d86">1. Supply of Loanable Funds</a>
+<ul>
+<li><a href="#orged275ae">1.1. Households</a></li>
+<li><a href="#orgc8f9bf4">1.2. Governments</a></li>
+<li><a href="#org87eb054">1.3. Businesses</a></li>
+</ul>
+</li>
+<li><a href="#orgadd24b6">2. Demand of Loanable Funds</a></li>
+<li><a href="#org17497db">3. References</a></li>
+</ul>
+</div>
+</div>
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+
+      
+      google.charts.setOnLoadCallback(drawChart);
+
+      google.charts.setOnLoadCallback(drawChart2);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Quantity', 'Demand', 'Supply'],
+          ['500',  5,      2],
+          ['600',  4,      3],
+          ['700',  3,      4],
+          ['800',  2,      5]
+        ]);
+
+        var options = {
+          title: '%',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+
+            function drawChart2() {
+        var data = google.visualization.arrayToDataTable([
+          ['Quantity', 'Demand', 'Old Supply', 'New Supply'],
+          ['500',  5,      2, 3],
+          ['600',  4,      3, 4],
+          ['700',  3,      4, 5],
+          ['800',  2,      5, 6]
+        ]);
+
+        var options = {
+          title: '%',
+          curveType: 'function',
+          legend: { position: 'bottom' },
+	  series: {
+            1: { lineDashStyle: [1, 1] }
+	    },
+	    colors: ['#0000FF', '#ff0000', '#ff0000'],
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart2'));
+
+        chart.draw(data, options);
+      }
+
+    </script>
+  </head>
+
+<div id="curve_chart"></div>
+
+<div id="curve_chart2"></div>
+
+
+<p>
+In these notes we'll discuss the factors affecting the supply and demand for loanable funds.  Understanding these factors will give you a framework within which you can understand changes in interest rates.
+</p>
+
+
+<div id="outline-container-orgc645d86" class="outline-2">
+<h2 id="orgc645d86"><span class="section-number-2">1.</span> Supply of Loanable Funds</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Loanable funds are supplied primarily by (1) households, and also by (2) government and (3) businesses.  Note, funds are not supplied by banks&#x2014;banks are merely the <i>intermediaries</i>.
+</p>
+</div>
+
+<div id="outline-container-orged275ae" class="outline-3">
+<h3 id="orged275ae"><span class="section-number-3">1.1.</span> Households</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Households supply loanable funds through bank deposits and CD purchases.  
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgc8f9bf4" class="outline-3">
+<h3 id="orgc8f9bf4"><span class="section-number-3">1.2.</span> Governments</h3>
+</div>
+
+<div id="outline-container-org87eb054" class="outline-3">
+<h3 id="org87eb054"><span class="section-number-3">1.3.</span> Businesses</h3>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-orgadd24b6" class="outline-2">
+<h2 id="orgadd24b6"><span class="section-number-2">2.</span> Demand of Loanable Funds</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+(, ) estimated&#x2026;
+</p>
+</div>
+</div>
+
+<div id="outline-container-org17497db" class="outline-2">
+<h2 id="org17497db"><span class="section-number-2">3.</span> References</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Matt Brigida, Ph.D.</p>
+<p class="date">Created: 2023-12-19 Tue 20:47</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
