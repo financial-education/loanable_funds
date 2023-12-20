@@ -5,7 +5,77 @@
 #+PROPERTY: header-args
 #+bibliography: references.bib
 
-In these notes we'll discuss the factors affecting the supply and demand for loanable funds.
+
+
+#+begin_export html
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+
+      
+      google.charts.setOnLoadCallback(drawChart);
+
+      google.charts.setOnLoadCallback(drawChart2);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Quantity', 'Demand', 'Supply'],
+          ['500',  5,      2],
+          ['600',  4,      3],
+          ['700',  3,      4],
+          ['800',  2,      5]
+        ]);
+
+        var options = {
+          title: '%',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+
+            function drawChart2() {
+        var data = google.visualization.arrayToDataTable([
+          ['Quantity', 'Demand', 'Old Supply', 'New Supply'],
+          ['500',  5,      2, 3],
+          ['600',  4,      3, 4],
+          ['700',  3,      4, 5],
+          ['800',  2,      5, 6]
+        ]);
+
+        var options = {
+          title: '%',
+          curveType: 'function',
+          legend: { position: 'bottom' },
+	  series: {
+            1: { lineDashStyle: [1, 1] }
+	    },
+	    colors: ['#0000FF', '#ff0000', '#ff0000'],
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart2'));
+
+        chart.draw(data, options);
+      }
+
+    </script>
+  </head>
+#+end_export
+
+#+begin_export html
+<div id="curve_chart"></div>
+#+end_export
+
+#+begin_export html
+<div id="curve_chart2"></div>
+#+end_export
+
+
+In these notes we'll discuss the factors affecting the supply and demand for loanable funds.  Understanding these factors will give you a framework within which you can understand changes in interest rates.
 
 
 * Supply of Loanable Funds
@@ -13,6 +83,8 @@ In these notes we'll discuss the factors affecting the supply and demand for loa
 Loanable funds are supplied primarily by (1) households, and also by (2) government and (3) businesses.  Note, funds are not supplied by banks---banks are merely the /intermediaries/.
 
 ** Households
+
+Households supply loanable funds through bank deposits and CD purchases.  
 
 
 ** Governments
