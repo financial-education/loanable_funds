@@ -6,7 +6,6 @@
 #+bibliography: references.bib
 
 
-
 #+begin_export html
 <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -17,34 +16,66 @@
       google.charts.setOnLoadCallback(drawChart);
 
       google.charts.setOnLoadCallback(drawChart2);
+      google.charts.setOnLoadCallback(drawChart3);
+      google.charts.setOnLoadCallback(drawChart4);
 
-      function drawChart() {
+
+// supply loanable funds
+      
+      function drawChart3() {
         var data = google.visualization.arrayToDataTable([
-          ['Quantity', 'Demand', 'Supply'],
-          ['500',  5,      2],
-          ['600',  4,      3],
-          ['700',  3,      4],
-          ['800',  2,      5]
+          ['Quantity', 'Supply'],
+          ['500',       2],
+          ['600',       3],
+          ['700',       4],
+          ['800',       5]
         ]);
 
         var options = {
           title: '%',
           curveType: 'function',
-          legend: { position: 'bottom' }
+          legend: { position: 'bottom' },
+	    colors: ['#ff0000'],
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart3'));
 
         chart.draw(data, options);
       }
 
-            function drawChart2() {
+// demand loanable funds
+      
+      function drawChart4() {
         var data = google.visualization.arrayToDataTable([
-          ['Quantity', 'Demand', 'Old Supply', 'New Supply'],
-          ['500',  5,      2, 3],
-          ['600',  4,      3, 4],
-          ['700',  3,      4, 5],
-          ['800',  2,      5, 6]
+          ['Quantity', 'Demand'],
+          ['500',      5],
+          ['600',      4],
+          ['700',      3],
+          ['800',      2]
+        ]);
+
+        var options = {
+          title: '%',
+          curveType: 'function',
+          legend: { position: 'bottom' },
+	    colors: ['#0000FF'],
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart4'));
+
+        chart.draw(data, options);
+      }
+
+
+// increase econ growth
+      
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Quantity', 'Old Demand', 'New Demand', 'Supply'],
+          ['500',  5, 6,     2],
+          ['600',  4, 5,     3],
+          ['700',  3, 4,     4],
+          ['800',  2, 3,     5]
         ]);
 
         var options = {
@@ -52,9 +83,37 @@
           curveType: 'function',
           legend: { position: 'bottom' },
 	  series: {
-            1: { lineDashStyle: [1, 1] }
+            1: { lineDashStyle: [1, 1] },
 	    },
-	    colors: ['#0000FF', '#ff0000', '#ff0000'],
+	    colors: ['#0000FF', '#0000FF', '#ff0000'],
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+
+
+// infltion increase
+
+            function drawChart2() {
+        var data = google.visualization.arrayToDataTable([
+          ['Quantity', 'Old Demand', 'New Demand', 'Old Supply', 'New Supply'],
+          ['500',  5,  6,    2, 3],
+          ['600',  4,  5,    3, 4],
+          ['700',  3,  4,    4, 5],
+          ['800',  2,  3,    5, 6]
+        ]);
+
+        var options = {
+          title: '%',
+          curveType: 'function',
+          legend: { position: 'bottom' },
+	  series: {
+            1: { lineDashStyle: [1, 1] },
+            3: { lineDashStyle: [1, 1] },
+	    },
+	    colors: ['#0000FF', '#0000FF', '#ff0000', '#ff0000'],
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart2'));
@@ -66,13 +125,7 @@
   </head>
 #+end_export
 
-#+begin_export html
-<div id="curve_chart"></div>
-#+end_export
 
-#+begin_export html
-<div id="curve_chart2"></div>
-#+end_export
 
 
 In these notes we'll discuss the factors affecting the supply and demand for loanable funds.  Understanding these factors will give you a framework within which you can understand changes in interest rates.
@@ -81,6 +134,12 @@ In these notes we'll discuss the factors affecting the supply and demand for loa
 * Supply of Loanable Funds
 
 Loanable funds are supplied primarily by (1) households, and also by (2) government and (3) businesses.  Note, funds are not supplied by banks---banks are merely the /intermediaries/.
+
+#+begin_export html
+<div id="curve_chart3"></div>
+#+end_export
+
+The supply curve for loanable funds is increasing.  This means as interest rates increase, more funds are offered for loans.
 
 ** Households
 
@@ -97,9 +156,30 @@ Households supply loanable funds through bank deposits and CD purchases.
 * Demand of Loanable Funds
 
 
+#+begin_export html
+<div id="curve_chart4"></div>
+#+end_export
 
-[cite:@estrella2006yield;] estimated...
+** Economic Growth
 
-* References
+*** An Increase in Economic Growth
 
-#+print_bibliography:
+
+#+begin_export html
+<div id="curve_chart"></div>
+#+end_export
+
+
+
+** Inflation 
+
+
+*** Increase in Inflation
+
+#+begin_export html
+<div id="curve_chart2"></div>
+#+end_export
+
+
+
+
