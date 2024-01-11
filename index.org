@@ -127,9 +127,7 @@
 
 
 
-
 In these notes we'll discuss the factors affecting the supply and demand for loanable funds.  Understanding these factors will give you a framework within which you can understand changes in interest rates.
-
 
 * Supply of Loanable Funds
 
@@ -139,26 +137,39 @@ Loanable funds are supplied primarily by (1) households, and also by (2) governm
 <div id="curve_chart3"></div>
 #+end_export
 
-The supply curve for loanable funds is increasing.  This means as interest rates increase, more funds are offered for loans.
+The supply curve for loanable funds is increasing.  This means as interest rates increase (the price of these funds), more funds are offered for loans.  This is analogous to more copper (or any asset) being offered for sale if the copper price is higher.
 
 ** Households
 
-Households supply loanable funds through bank deposits and CD purchases.  
-
-
-** Governments
+Households supply loanable funds through bank deposits and CD purchases.  Also, foreign households can supply loanable funds in the US market by purchasing securities (including US Treasury securities).  Households are a net supplier of funds.
 
 ** Businesses
 
+Businesses may supply funds, however they are net demanders of funds.
 
+** Governments
 
+While certain part of the US government may supply funds, the US government is a net demander of funds due to its fiscal policy of spending much more than the tax revenues it collects. 
+
+** The Federal Reserve
+
+We will dedicate an entire set of lecture notes to the Fed later, however here we will note the Fed has a massive effect on the supply of loanable funds.  The Fed can create money through asset purchases, and therefore can at any point provide as much loanable funds to US markets as they wish.  Note, the Fed is not part of the US government.
 
 * Demand of Loanable Funds
 
+The demand curve is downwards sloping because less funds are demanded when the price of these funds (the interest rate) is higher.
 
 #+begin_export html
 <div id="curve_chart4"></div>
 #+end_export
+
+** Household Demand
+
+
+
+
+* Macroeconomic Factors that Shift the Equilibrium Interest Rate
+
 
 ** Economic Growth
 
