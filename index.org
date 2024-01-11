@@ -191,6 +191,10 @@ The demand curve is downwards sloping because less funds are demanded when the p
 <div id="curve_chart2"></div>
 #+end_export
 
+See the video below for an explanation of the change in the equilibrium interest rate.
 
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JAe5dE619dA?si=XQb0Mb2TnVncpex8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
 
 
