@@ -127,7 +127,14 @@
 
 
 
-In these notes we'll discuss the factors affecting the supply and demand for loanable funds.  Understanding these factors will give you a framework within which you can understand changes in interest rates.
+In these notes we'll discuss the factors affecting the supply and demand for loanable funds.  Understanding these factors will give you a framework within which you can understand changes in equilibrium interest rates.
+
+Before we jump in, however, you may want to take a look at the following video to understand what we mean by /equilibrium/ and in what sense it may be used.
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FveAr7T9fY0?si=kmkn_FOXU1PsFS-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
 
 * Supply of Loanable Funds
 
@@ -171,6 +178,8 @@ The demand curve is downwards sloping because less funds are demanded when the p
 * Macroeconomic Factors that Shift the Equilibrium Interest Rate
 
 
+
+
 ** Economic Growth
 
 *** An Increase in Economic Growth
@@ -187,6 +196,8 @@ The demand curve is downwards sloping because less funds are demanded when the p
 
 *** Increase in Inflation
 
+Supply decreases and demand increases causing an increase in the equilibrium interest rate.
+
 #+begin_export html
 <div id="curve_chart2"></div>
 #+end_export
@@ -197,4 +208,5 @@ See the video below for an explanation of the change in the equilibrium interest
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JAe5dE619dA?si=XQb0Mb2TnVncpex8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 #+end_export
 
+A decrease in inflation expectations will have the opposite effects on supply and demand, and thereby lower the equilibrium interest rate.
 
