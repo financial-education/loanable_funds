@@ -18,6 +18,7 @@
       google.charts.setOnLoadCallback(drawChart2);
       google.charts.setOnLoadCallback(drawChart3);
       google.charts.setOnLoadCallback(drawChart4);
+      google.charts.setOnLoadCallback(drawChartVert);
 
 
 // supply loanable funds
@@ -62,6 +63,29 @@
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart4'));
+
+        chart.draw(data, options);
+      }
+
+      // govt demand loanable funds verticle
+      
+      function drawChartVert() {
+        var data = google.visualization.arrayToDataTable([
+          ['Quantity', 'Demand'],
+          ['600',      5],
+          ['600',      4],
+          ['600',      3],
+          ['600',      2]
+        ]);
+
+        var options = {
+          title: '%',
+          curveType: 'function',
+          legend: { position: 'bottom' },
+	    colors: ['#0000FF'],
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart_vert'));
 
         chart.draw(data, options);
       }
@@ -172,13 +196,28 @@ The demand curve is downwards sloping because less funds are demanded when the p
 
 ** Household Demand
 
+Households demand funds for houses (mortgages), auto loans, and general spending (revolving loans). Generally thier demand for loanable funds increases over time with inflation and increasing wages.
+
+** Business Demand
+
+Businesses use decision rules such as Net Present Value and Internal Rate of Return to decide whether to make a capital investment. These rules are more likely to accept a project if the interest rate is lower, and therefore businesses demand more funds at lower interest rates.
+
+Taxes may also have a large effect on business demand for loanable funds.  If corporate taxes decline then cash flows increase and business demand for funds will shift right.  /Shift right/ means more funds are demanded at every interest rate.
+
+** Government Demand
+
+Government demand for loanable funds is unique in that it generally doesn't depend on the interest rate. Governments demand the same amount of funds regardless of the interest rate.  We can represent this with a vertical demand curve. 
 
 
+#+begin_comment
+#+begin_export html
+<div id="curve_chart_vert"></div>
+#+end_export
+#+end_comment
 
 * Macroeconomic Factors that Shift the Equilibrium Interest Rate
 
-
-
+In this section we will take a look at how the supply and demand for loanable funds will react to changes in macroeconomic variables. This will tell us the effect on the equilibrium interest rate.
 
 ** Economic Growth
 
