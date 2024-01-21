@@ -223,10 +223,19 @@ In this section we will take a look at how the supply and demand for loanable fu
 
 *** An Increase in Economic Growth
 
+An increase in economic growth will increase the demand for loanable funds---funds are needed for capital expansion.  The supply of loanable funds will generally remain unchanged.  This means interest rates will increase with increasing economic growth.
 
 #+begin_export html
 <div id="curve_chart"></div>
 #+end_export
+
+*** An Decrease in Economic Growth
+
+Conversely, a decrease in economic growth will decrease the demand for loanable funds and leave the supply unchanged, thereby lowering interest rates.
+
+#+begin_quote
+**Passive Monetary Policy**: Note the Federal Reserve lowers interest rates when economic growth slows and raises interest rates when economic growth increases such that it causes inflation. But from what we just learned, we don't need the Fed to do this---interest rates will adjust by themselves.  The Fed will counter that they will increase and decrease interest rates /before/ the economic slowdown (or inflation) thereby keeping economic growth constant.  However a problem with this assertion (besides the Fed's track record) is you would need to be able to forecast economic growth which is a very difficult task.  
+#+end_quote
 
 
 
