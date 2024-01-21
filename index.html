@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-01-20 Sat 19:29 -->
+<!-- 2024-01-20 Sat 20:40 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>An Analysis of Loanable Funds</title>
@@ -16,6 +16,38 @@
 <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
 <style>pre.src{background:#343131;color:white;} </style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="content" class="content">
@@ -24,32 +56,33 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org01bfd2b">1. Supply of Loanable Funds</a>
+<li><a href="#orgfd04987">1. Supply of Loanable Funds</a>
 <ul>
-<li><a href="#org7591f5e">1.1. Households</a></li>
-<li><a href="#org5bc2ad1">1.2. Businesses</a></li>
-<li><a href="#org23f8f6d">1.3. Governments</a></li>
-<li><a href="#org1f5a815">1.4. The Federal Reserve</a></li>
+<li><a href="#orgba97794">1.1. Households</a></li>
+<li><a href="#orgb02cca5">1.2. Businesses</a></li>
+<li><a href="#org628166c">1.3. Governments</a></li>
+<li><a href="#org69a6921">1.4. The Federal Reserve</a></li>
 </ul>
 </li>
-<li><a href="#orgbebb695">2. Demand of Loanable Funds</a>
+<li><a href="#org14b3075">2. Demand of Loanable Funds</a>
 <ul>
-<li><a href="#org82794b2">2.1. Household Demand</a></li>
-<li><a href="#org5440d09">2.2. Business Demand</a></li>
-<li><a href="#orgf1bc0e3">2.3. Government Demand</a></li>
+<li><a href="#org53985e5">2.1. Household Demand</a></li>
+<li><a href="#org95af1fa">2.2. Business Demand</a></li>
+<li><a href="#orga4d4c73">2.3. Government Demand</a></li>
 </ul>
 </li>
-<li><a href="#orgea8fb82">3. Macroeconomic Factors that Shift the Equilibrium Interest Rate</a>
+<li><a href="#orge85ca01">3. Macroeconomic Factors that Shift the Equilibrium Interest Rate</a>
 <ul>
-<li><a href="#orgbea1f39">3.1. Economic Growth</a>
+<li><a href="#org2ecb9b1">3.1. Economic Growth</a>
 <ul>
-<li><a href="#org4f188ae">3.1.1. An Increase in Economic Growth</a></li>
-<li><a href="#orgf4be8d1">3.1.2. An Decrease in Economic Growth</a></li>
+<li><a href="#org5f8ece6">3.1.1. An Increase in Economic Growth</a></li>
+<li><a href="#org4486a81">3.1.2. An Decrease in Economic Growth</a></li>
 </ul>
 </li>
-<li><a href="#orgf7a6df2">3.2. Inflation</a>
+<li><a href="#orgec018cd">3.2. Inflation</a>
 <ul>
-<li><a href="#org1cf72db">3.2.1. Increase in Inflation</a></li>
+<li><a href="#orgb649cba">3.2.1. Increase in Inflation</a></li>
+<li><a href="#org4a84f70">3.2.2. Increase in US Debt</a></li>
 </ul>
 </li>
 </ul>
@@ -211,8 +244,8 @@ Before we jump in, however, you may want to take a look at the following video t
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FveAr7T9fY0?si=kmkn_FOXU1PsFS-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-<div id="outline-container-org01bfd2b" class="outline-2">
-<h2 id="org01bfd2b"><span class="section-number-2">1.</span> Supply of Loanable Funds</h2>
+<div id="outline-container-orgfd04987" class="outline-2">
+<h2 id="orgfd04987"><span class="section-number-2">1.</span> Supply of Loanable Funds</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Loanable funds are supplied primarily by (1) households, and also by (2) government and (3) businesses.  Note, funds are not supplied by banks&#x2014;banks are merely the <i>intermediaries</i>.
@@ -225,8 +258,8 @@ The supply curve for loanable funds is increasing.  This means as interest rates
 </p>
 </div>
 
-<div id="outline-container-org7591f5e" class="outline-3">
-<h3 id="org7591f5e"><span class="section-number-3">1.1.</span> Households</h3>
+<div id="outline-container-orgba97794" class="outline-3">
+<h3 id="orgba97794"><span class="section-number-3">1.1.</span> Households</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Households supply loanable funds through bank deposits and CD purchases.  Also, foreign households can supply loanable funds in the US market by purchasing securities (including US Treasury securities).  Households are a net supplier of funds.
@@ -234,8 +267,8 @@ Households supply loanable funds through bank deposits and CD purchases.  Also, 
 </div>
 </div>
 
-<div id="outline-container-org5bc2ad1" class="outline-3">
-<h3 id="org5bc2ad1"><span class="section-number-3">1.2.</span> Businesses</h3>
+<div id="outline-container-orgb02cca5" class="outline-3">
+<h3 id="orgb02cca5"><span class="section-number-3">1.2.</span> Businesses</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 Businesses may supply funds, however they are net demanders of funds.
@@ -243,8 +276,8 @@ Businesses may supply funds, however they are net demanders of funds.
 </div>
 </div>
 
-<div id="outline-container-org23f8f6d" class="outline-3">
-<h3 id="org23f8f6d"><span class="section-number-3">1.3.</span> Governments</h3>
+<div id="outline-container-org628166c" class="outline-3">
+<h3 id="org628166c"><span class="section-number-3">1.3.</span> Governments</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 While certain part of the US government may supply funds, the US government is a net demander of funds due to its fiscal policy of spending much more than the tax revenues it collects. 
@@ -252,8 +285,8 @@ While certain part of the US government may supply funds, the US government is a
 </div>
 </div>
 
-<div id="outline-container-org1f5a815" class="outline-3">
-<h3 id="org1f5a815"><span class="section-number-3">1.4.</span> The Federal Reserve</h3>
+<div id="outline-container-org69a6921" class="outline-3">
+<h3 id="org69a6921"><span class="section-number-3">1.4.</span> The Federal Reserve</h3>
 <div class="outline-text-3" id="text-1-4">
 <p>
 We will dedicate an entire set of lecture notes to the Fed later, however here we will note the Fed has a massive effect on the supply of loanable funds.  The Fed can create money through asset purchases, and therefore can at any point provide as much loanable funds to US markets as they wish.  Note, the Fed is not part of the US government.
@@ -262,8 +295,8 @@ We will dedicate an entire set of lecture notes to the Fed later, however here w
 </div>
 </div>
 
-<div id="outline-container-orgbebb695" class="outline-2">
-<h2 id="orgbebb695"><span class="section-number-2">2.</span> Demand of Loanable Funds</h2>
+<div id="outline-container-org14b3075" class="outline-2">
+<h2 id="org14b3075"><span class="section-number-2">2.</span> Demand of Loanable Funds</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 The demand curve is downwards sloping because less funds are demanded when the price of these funds (the interest rate) is higher.
@@ -272,8 +305,8 @@ The demand curve is downwards sloping because less funds are demanded when the p
 <div id="curve_chart4"></div>
 </div>
 
-<div id="outline-container-org82794b2" class="outline-3">
-<h3 id="org82794b2"><span class="section-number-3">2.1.</span> Household Demand</h3>
+<div id="outline-container-org53985e5" class="outline-3">
+<h3 id="org53985e5"><span class="section-number-3">2.1.</span> Household Demand</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 Households demand funds for houses (mortgages), auto loans, and general spending (revolving loans). Generally thier demand for loanable funds increases over time with inflation and increasing wages.
@@ -281,8 +314,8 @@ Households demand funds for houses (mortgages), auto loans, and general spending
 </div>
 </div>
 
-<div id="outline-container-org5440d09" class="outline-3">
-<h3 id="org5440d09"><span class="section-number-3">2.2.</span> Business Demand</h3>
+<div id="outline-container-org95af1fa" class="outline-3">
+<h3 id="org95af1fa"><span class="section-number-3">2.2.</span> Business Demand</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 Businesses use decision rules such as Net Present Value and Internal Rate of Return to decide whether to make a capital investment. These rules are more likely to accept a project if the interest rate is lower, and therefore businesses demand more funds at lower interest rates.
@@ -294,8 +327,8 @@ Taxes may also have a large effect on business demand for loanable funds.  If co
 </div>
 </div>
 
-<div id="outline-container-orgf1bc0e3" class="outline-3">
-<h3 id="orgf1bc0e3"><span class="section-number-3">2.3.</span> Government Demand</h3>
+<div id="outline-container-orga4d4c73" class="outline-3">
+<h3 id="orga4d4c73"><span class="section-number-3">2.3.</span> Government Demand</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 Government demand for loanable funds is unique in that it generally doesn't depend on the interest rate. Governments demand the same amount of funds regardless of the interest rate.  We can represent this with a vertical demand curve. 
@@ -304,20 +337,20 @@ Government demand for loanable funds is unique in that it generally doesn't depe
 </div>
 </div>
 
-<div id="outline-container-orgea8fb82" class="outline-2">
-<h2 id="orgea8fb82"><span class="section-number-2">3.</span> Macroeconomic Factors that Shift the Equilibrium Interest Rate</h2>
+<div id="outline-container-orge85ca01" class="outline-2">
+<h2 id="orge85ca01"><span class="section-number-2">3.</span> Macroeconomic Factors that Shift the Equilibrium Interest Rate</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 In this section we will take a look at how the supply and demand for loanable funds will react to changes in macroeconomic variables. This will tell us the effect on the equilibrium interest rate.
 </p>
 </div>
 
-<div id="outline-container-orgbea1f39" class="outline-3">
-<h3 id="orgbea1f39"><span class="section-number-3">3.1.</span> Economic Growth</h3>
+<div id="outline-container-org2ecb9b1" class="outline-3">
+<h3 id="org2ecb9b1"><span class="section-number-3">3.1.</span> Economic Growth</h3>
 <div class="outline-text-3" id="text-3-1">
 </div>
-<div id="outline-container-org4f188ae" class="outline-4">
-<h4 id="org4f188ae"><span class="section-number-4">3.1.1.</span> An Increase in Economic Growth</h4>
+<div id="outline-container-org5f8ece6" class="outline-4">
+<h4 id="org5f8ece6"><span class="section-number-4">3.1.1.</span> An Increase in Economic Growth</h4>
 <div class="outline-text-4" id="text-3-1-1">
 <p>
 An increase in economic growth will increase the demand for loanable funds&#x2014;funds are needed for capital expansion.  The supply of loanable funds will generally remain unchanged.  This means interest rates will increase with increasing economic growth.
@@ -327,8 +360,8 @@ An increase in economic growth will increase the demand for loanable funds&#x201
 </div>
 </div>
 
-<div id="outline-container-orgf4be8d1" class="outline-4">
-<h4 id="orgf4be8d1"><span class="section-number-4">3.1.2.</span> An Decrease in Economic Growth</h4>
+<div id="outline-container-org4486a81" class="outline-4">
+<h4 id="org4486a81"><span class="section-number-4">3.1.2.</span> An Decrease in Economic Growth</h4>
 <div class="outline-text-4" id="text-3-1-2">
 <p>
 Conversely, a decrease in economic growth will decrease the demand for loanable funds and leave the supply unchanged, thereby lowering interest rates.
@@ -343,14 +376,44 @@ Conversely, a decrease in economic growth will decrease the demand for loanable 
 </div>
 </div>
 
-
-
-<div id="outline-container-orgf7a6df2" class="outline-3">
-<h3 id="orgf7a6df2"><span class="section-number-3">3.2.</span> Inflation</h3>
+<div id="outline-container-orgec018cd" class="outline-3">
+<h3 id="orgec018cd"><span class="section-number-3">3.2.</span> Inflation</h3>
 <div class="outline-text-3" id="text-3-2">
+<p>
+We may already be somewhat familiar with the relationship between inflation and nominal interest rates from the Fisher Effect:
+</p>
+
+<p>
+\[(1 + n) = (1 + r)(1 + i)\]
+</p>
+
+<p>
+where:
+</p>
+
+<ul class="org-ul">
+<li>n: the nominal interest rate</li>
+<li>r: the real interest rate</li>
+<li>i: expected inflation</li>
+</ul>
+
+<blockquote>
+<ul class="org-ul">
+<li>Nominal Interest Rate:  the change in the amount of dollars you will have.</li>
+<li>Real Interest Rate:  the change in the amount of stuff you will be able to buy</li>
+</ul>
+<p>
+Note: we care about the real rate.
+</p>
+</blockquote>
+
+<p>
+From this equation we can see that as inflation increases, the nominal interest rate increases.  Nominal interest rates and inflation are positively related.
+</p>
 </div>
-<div id="outline-container-org1cf72db" class="outline-4">
-<h4 id="org1cf72db"><span class="section-number-4">3.2.1.</span> Increase in Inflation</h4>
+
+<div id="outline-container-orgb649cba" class="outline-4">
+<h4 id="orgb649cba"><span class="section-number-4">3.2.1.</span> Increase in Inflation</h4>
 <div class="outline-text-4" id="text-3-2-1">
 <p>
 Supply decreases and demand increases causing an increase in the equilibrium interest rate.
@@ -369,12 +432,30 @@ A decrease in inflation expectations will have the opposite effects on supply an
 </p>
 </div>
 </div>
+
+<div id="outline-container-org4a84f70" class="outline-4">
+<h4 id="org4a84f70"><span class="section-number-4">3.2.2.</span> Increase in US Debt</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<p>
+The US government generally runs budget deficits and has a massive amount of outstanding debt.
+</p>
+
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1cSNC&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+
+
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1dsBt&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1aBRl&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1ep1G&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Matt Brigida, Ph.D.</p>
-<p class="date">Created: 2024-01-20 Sat 19:29</p>
+<p class="date">Created: 2024-01-20 Sat 20:40</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

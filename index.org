@@ -237,10 +237,25 @@ Conversely, a decrease in economic growth will decrease the demand for loanable 
 **Passive Monetary Policy**: Note the Federal Reserve lowers interest rates when economic growth slows and raises interest rates when economic growth increases such that it causes inflation. But from what we just learned, we don't need the Fed to do this---interest rates will adjust by themselves.  The Fed will counter that they will increase and decrease interest rates /before/ the economic slowdown (or inflation) thereby keeping economic growth constant.  However a problem with this assertion (besides the Fed's track record) is you would need to be able to forecast economic growth which is a very difficult task.  
 #+end_quote
 
-
-
 ** Inflation 
 
+We may already be somewhat familiar with the relationship between inflation and nominal interest rates from the Fisher Effect:
+
+$$(1 + n) = (1 + r)(1 + i)$$
+
+where:
+
+- n: the nominal interest rate
+- r: the real interest rate
+- i: expected inflation
+
+#+begin_quote
+-  Nominal Interest Rate:  the change in the amount of dollars you will have.
+-  Real Interest Rate:  the change in the amount of stuff you will be able to buy
+Note: we care about the real rate.
+#+end_quote
+
+From this equation we can see that as inflation increases, the nominal interest rate increases.  Nominal interest rates and inflation are positively related.
 
 *** Increase in Inflation
 
@@ -258,3 +273,25 @@ See the video below for an explanation of the change in the equilibrium interest
 
 A decrease in inflation expectations will have the opposite effects on supply and demand, and thereby lower the equilibrium interest rate.
 
+*** Increase in US Debt
+
+The US government generally runs budget deficits and has a massive amount of outstanding debt.
+
+#+caption: Total US Debt in $.  
+#+begin_export html
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1cSNC&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+#+end_export
+
+
+#+caption: Total US Debt as a percent of US GDP. 
+#+begin_export html
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1dsBt&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+#+end_export
+
+#+begin_export html
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1aBRl&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+#+end_export
+
+#+begin_export html
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1ep1G&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+#+end_export
