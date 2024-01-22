@@ -275,7 +275,13 @@ A decrease in inflation expectations will have the opposite effects on supply an
 
 *** Increase in US Debt
 
-The US government generally runs budget deficits and has a massive amount of outstanding debt.
+The US government generally runs budget deficits and has a massive amount of outstanding debt.   This means as the government demands more funds, the demand curve shifts right, while the supply curve is unchanged.  This means the interest rate increases.
+
+Remember the shape of the curve of the government demand for loanable funds---it is vertical meaning the government demands funds regardless of the interest rate. This means the government may demand so much funds that it increases interest rates beyond what businesses can pay.  This is called /crowding out/.
+
+#+begin_quote
+**A History of Crowding Out**:  Politicians like to spend, and so they have a history of downplaying the effect of government borrowing on interest rates.  
+#+end_quote
 
 #+caption: Total US Debt in $.  
 #+begin_export html
