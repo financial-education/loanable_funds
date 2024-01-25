@@ -280,8 +280,13 @@ The US government generally runs budget deficits and has a massive amount of out
 Remember the shape of the curve of the government demand for loanable funds---it is vertical meaning the government demands funds regardless of the interest rate. This means the government may demand so much funds that it increases interest rates beyond what businesses can pay.  This is called /crowding out/.
 
 #+begin_quote
-**A History of Crowding Out**:  Politicians like to spend, and so they have a history of downplaying the effect of government borrowing on interest rates.  
+**A History of Crowding Out**:  Politicians like to spend, and so they have a history of downplaying the effect of government borrowing on interest rates.  For example, a recent Vice President was famous for stating "Deficits don't matter".
 #+end_quote
+
+From approximately 2000 to 2021 the US ran increasingly large deficits (as you can see in the charts below), however interest rates generally fell.  This is because while the US increased it debt, the Fed also increased the money supply (chart below).   The Fed essentially financed much of the US deficits with new money.  Foreigners also financed part of the deficits.  This works so long as inflation remains low, however inflation markedly increased around 2022, so the Fed may no longer be able to finance deficit spending.
+
+
+
 
 #+caption: Total US Debt in $.  
 #+begin_export html
@@ -301,3 +306,25 @@ Remember the shape of the curve of the government demand for loanable funds---it
 #+begin_export html
 <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1ep1G&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
 #+end_export
+
+
+#+begin_export html
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1epHK&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+#+end_export
+
+
+*** Foreign Flows
+
+Foreign investors may supply funds to US markets which will increase the supply curve and lower interest rates.  Of course, they can also demand funds in the US which will increase US interest rates.
+
+Generally, however, foreigners have supplied funds to US markets as a result of the US trade deficit. We in the US buy more goods from abroad then we sell.  This means we send more US dollars abroad then foreign currency is sent to the US.  This would mean the US dollar would decline. So this doesn't happen (foreigners want the US dollar to be high---can you think of why?) they supply funds to US markets. In short, if you buy a $100 phone from abroad, foreigners then invest $100 in US markets (see the Balance of Payments for more).  So foreign flows have generally /lowered/ US interest rates.
+
+* Conclusion
+
+Changes in interest rates are the aggregation of all these factors. So if interest rates rise by a percent over the next month, we know in aggregate demand for funds increased more than supply, however the exact contribution of the budget deficit, or economic growth, etc is unclear.  We use statistical models to parse the various factors.
+
+**A practical note on interest rate forecasting**
+
+Forecasting interest rates is exceedingly difficult , and if you could do it you would be a billionaire trading your own account.  So most corporations who use interest rate forecasts just buy these forecasts from reputable investment banks.  In this way they don't waste money trying to do it themselves, and if they are wrong they can say they bought the forecast from the most knowledgeable people around (this is termed /CYA/ and as a practical matter drives many decisions). 
+
+
